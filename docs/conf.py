@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'BloodChain'
-copyright = u'2020, Read the Docs'
+copyright = u'2020, Blood Chain'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -180,7 +180,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ReadtheDocsTemplatedoc'
+htmlhelp_basename = 'BloodChainDocs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
