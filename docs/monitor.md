@@ -1,6 +1,6 @@
 # 血液链监控大屏
 ## 概要说明
-血液链监控大屏后台服务
+血液链监控大屏后台服务接口文档
 ## 接口说明
 - url：全局的参数url为请求的http地址，例如http://127.0.0.1
 - port：全局的参数url为请求的端口号，例如8000
@@ -135,7 +135,7 @@ HTTP GET
 
 **2）数据格式**
 ```
-{{url}}:{{port}}/block/blocksTxDetail/1/1/10？contractName=DonateBlood&methodName=AddDonateInfo
+{{url}}:{{port}}/block/blocksTxDetail/1/1/10?contractName=DonateBlood&methodName=AddDonateInfo
 ```
 **响应参数**
 
