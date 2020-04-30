@@ -445,6 +445,7 @@ HTTP GET
 | 序号 |中文  |参数名  | 类型 |必填  |说明  |
 | --- | --- | --- | --- | --- | --- |
 | 1 |群组id  | groupID | number |  是| 血液链的群组id |
+
 **2）数据格式**
 ```
 {{url}}:{{port}}/mgr/transaction/getTotalTransactionCount/1
@@ -486,6 +487,7 @@ HTTP GET
 | 1 |群组id  | groupID | number |  是| 血液链的群组id |
 | 2 |页码  | page | number |  是| 页码 |
 | 3 |行数  | size | number |  是| 每页显示条数 |
+
 **2）数据格式**
 ```
 {{url}}:{{port}}/mgr/transaction/transList/1/1/2
@@ -546,6 +548,7 @@ HTTP GET
 | 2 |页码  | page | number |  是| 页码 |
 | 3 |行数  | size | number |  是| 每页显示条数 |
 | 4 |区块高度  | blockNumber | number |  是| 区块高度 |
+
 **2）数据格式**
 ```
 {{url}}:{{port}}/mgr/transaction/transList/1/1/10?blockNumber=830
