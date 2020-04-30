@@ -16,6 +16,7 @@
 根据区块高度获取区块信息
 
 **接口url**
+
 /mgr/block/getBlockByNumber/:groupID/:blockNumber
 
 **调用方法**
@@ -89,7 +90,9 @@ HTTP GET
 根据区块哈希获取区块信息
 
 **接口url**
+
 /mgr/block/getBlockByHash/:groupID/:blockHash/:includeTransactions
+
 **调用方法**
 
 HTTP GET
@@ -149,7 +152,9 @@ HTTP GET
 根据区块高度获取区块哈希
 
 **接口url**
+
 /mgr/block/getBlockHashByNumber/:groupID/:blockNumber
+
 **调用方法**
 
 HTTP GET
@@ -184,7 +189,9 @@ HTTP GET
 根据群组id获取区块最新高度
 
 **接口url**
+
 /mgr/block/getBlockNumber/:groupID
+
 **调用方法**
 
 HTTP GET
@@ -218,7 +225,9 @@ HTTP GET
 根据群组id获取区块列表
 
 **接口url**
+
 /mgr/block/blockList/:groupID/:page/:size
+
 **调用方法**
 
 HTTP GET
@@ -885,6 +894,7 @@ HTTP GET
 **接口url**
 
 /mgr/group/getGroupList
+
 **调用方法**
 
 HTTP GET
@@ -921,6 +931,7 @@ HTTP GET
 **接口url**
 
 /mgr/group/getGroupPeers/:groupID
+
 **调用方法**
 
 HTTP GET
@@ -963,6 +974,7 @@ HTTP GET
 **接口url**
 
 /mgr/group/getConsensusStatus/:groupID
+
 **调用方法**
 
 HTTP GET
@@ -1050,6 +1062,7 @@ HTTP GET
 **接口url**
 
 /mgr/group/general/:groupID
+
 **调用方法**
 
 HTTP GET
@@ -1092,6 +1105,7 @@ HTTP GET
 **接口url**
 
 /mgr/group/transDaily/:groupID
+
 **调用方法**
 
 HTTP GET
